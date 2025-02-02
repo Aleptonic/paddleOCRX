@@ -9,9 +9,13 @@ from PDFSNIPPER import split_pdf
 from PDFSNIPPER import save_pages_as_images
 import shutil
 
-# -------------------- Only for Windows If Poppler not on PATH --------------------
-#                      Set the path to the poppler binaries
-os.environ['PATH'] += os.pathsep + r'C:\Program Files\Release-24.08.0-0\poppler-24.08.0\Library\bin'
+''' -------------------- Only for Windows If Poppler not on PATH --------------------
+                         Set the path to the poppler binaries
+
+=> INITIALLY COMMENTED OUT, IF WINDOWS USER CHECK THE REPO FOR DETAILS IF RUNTIME ERROR ENCOUNTERED
+'''
+#os.environ['PATH'] += os.pathsep + r'C:\Program Files\Release-24.08.0-0\poppler-24.08.0\Library\bin' 
+
 # -------------------- Singleton OCR Class --------------------
 class OCRSingleton:
     """Ensures that the PaddleOCR model is initialized only once."""
