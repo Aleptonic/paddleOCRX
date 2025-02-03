@@ -1,4 +1,3 @@
-```markdown
 # PaddleOCRX
 
 PaddleOCRX is an enhanced library built upon [PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR) to improve OCR accuracy while preserving the structure of detected text, especially in unstructured documents.
@@ -89,4 +88,4 @@ Contributions are welcome! Feel free to submit issues and pull requests.
 
 ## 📞 Support
 For issues, open a GitHub issue or reach out to the maintainers.
-```
+
